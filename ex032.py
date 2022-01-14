@@ -2,7 +2,7 @@
 from datetime import date
 n = int(input("Digite o ano para saber se é bissexto: "))
 if n == 0:
-    #Class date. mais método today().year que identifica o nao atual.
+    #Class "date." mais método "today().year" que identifica o ano atual.
     n = date.today().year
 
     #Condição para saber se o ano digitado é bissexto ou não.
